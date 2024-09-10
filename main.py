@@ -10,6 +10,7 @@ screen.tracer(0)
 
 player = Player()
 
+#movement to the turtle
 screen.listen()
 screen.onkeypress(player.go_up, "Up")
 screen.onkeypress(player.go_down, "Down")
